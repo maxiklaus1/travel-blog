@@ -42,3 +42,14 @@ img:hover {
 .cta-card button:hover {
     background-color: #00b3b3;
 }
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.95em;
+    color: #666;
+}
