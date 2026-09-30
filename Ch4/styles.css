@@ -1,9 +1,10 @@
 header {
-    background-image: url('images/header-bg.jpg');
+    background: linear-gradient(to right, rgba(0,90,160,0.55), rgba(80,170,255,0.35)), url('images/header-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
     color: white;
+}
 }
 
 img {
@@ -14,4 +15,31 @@ img {
 
 img:hover {
     transform: scale(1.05);
+}
+.caption-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 34px;
+}
+
+.cta-card {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 16px;
+    background-color: white;
+    display: inline-block;
+}
+
+.cta-card button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-card button:hover {
+    background-color: #00b3b3;
 }
