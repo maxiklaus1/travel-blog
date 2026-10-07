@@ -29,7 +29,7 @@
 
 .stats-row {
     display: flex;
-   gap: 20px; /* flex layout */
+   gap: 20px;
 }
 
 .stat-card {
