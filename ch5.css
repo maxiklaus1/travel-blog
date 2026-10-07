@@ -26,3 +26,16 @@
 .clear-below {
     clear: both;
 }
+
+.stats-row {
+    display: flex;
+    gap: 20px;
+}
+
+.stat-card {
+    flex: 1;
+    background-color: #f2f9fa;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
