@@ -68,8 +68,4 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
-}    background-color: #f2f9fa;
-    padding: 16px;
-    border-radius: 8px;
-    text-align: center;
 }
